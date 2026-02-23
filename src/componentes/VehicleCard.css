@@ -1,0 +1,23 @@
+
+.vehicle-card{
+    background-color: var(---colorBase3);
+    height: 25rem;
+    width: 20rem;
+    border-radius: 1rem;
+}
+.button-group{
+    display: flex;
+    flex-direction: column;
+    width: 8rem;
+}
+.btn-edit{
+    background-color: var(---colorBase1);
+    color: var(---colorBase2);
+    border: none;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+}
+.btn-pay{
+    
+}
