@@ -28,7 +28,7 @@ function RegistroForm({ onAgregarVehiculo }) {
   return (
     <form onSubmit={handleSubmit}>
       <div className="inputsInfo">
-        <label className="labelInput">Placa:</label>
+        <label className="labelInput">Placa</label>
         <input
           type="text"
           value={placa}

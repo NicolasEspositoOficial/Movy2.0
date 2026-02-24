@@ -45,5 +45,34 @@ html{
 }
 .vetana-de-matriculas{
   width: 60%;
-  background-color: #c0c0c0;
+  height: 80vh;
+  background-color: #d8d8d8;
+  border-radius: 1rem 0rem 0rem 1rem;
+  gap: 1rem;
+  
+}
+.mensaje-vacio{
+  font-size: 2rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin: auto;
+}
+.matriculas-registradas{
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  height: 74.2vh;
+  overflow-y: auto;
+}
+.buscador-de-matriculas{
+  margin-top: 1rem;
+}
+.inputBuscar{
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+}
+.inputBuscar::-webkit-search-cancel-button{
+  -webkit-appearance: none;
 }

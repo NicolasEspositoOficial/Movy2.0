@@ -2,6 +2,9 @@
     ---colorBase1: #0E69B2;
     ---colorBase2: #e4e4e4;
     ---colorBase3: #114d7e;
+    ---colorBase4: #9ada51;
+    ---colorBase5: hsl(88, 41%, 48%);
+    ---colorBase6: #1681d8;
 }
 .inputsInfo{
     padding-top: 2rem;
@@ -63,6 +66,7 @@
     border-radius: 1rem;
     width: 12rem;
     height: 12rem;
+    cursor: pointer;
 }
 .btnDeIcono:hover{
     background-color: var(---colorBase3);
@@ -73,4 +77,16 @@
 }
 .btnDeIcono.activo{
     background-color: var(---colorBase3);
+}
+
+
+/*la parte resposive del sitio web*/
+
+@media (max-width: 846px) {
+    .labelInput{
+        border-radius: 0.5rem 0.5rem 0rem 0rem;
+    }
+    .inputInfo{
+        border-radius: 0.5rem;
+    }
 }
