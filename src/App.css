@@ -61,18 +61,41 @@ html{
   padding: 1rem;
   display: flex;
   flex-wrap: wrap;
-  height: 74.2vh;
+  height: 71vh;
   overflow-y: auto;
+  border-radius: 1rem;
 }
 .buscador-de-matriculas{
   margin-top: 1rem;
 }
 .inputBuscar{
+  margin: 1rem;
   padding: 0.5rem 1rem;
   border: none;
   outline: none;
   border-radius: 0.5rem;
+  font-size: 2rem;
 }
 .inputBuscar::-webkit-search-cancel-button{
   -webkit-appearance: none;
+}
+.btn-config{
+  border: none;
+  background-color: transparent;
+}
+.iconoDeConfiguracion{
+  width: 5rem;
+  cursor: pointer;
+  border-radius: 100%;
+  color: var(---colorBase1);
+  transition: all 300ms ease;
+  margin: 2rem;
+}
+.iconoDeConfiguracion:hover{
+  color: var(---colorBase3);
+  scale: 110%;
+}
+.titulo-seccion{
+  font-size: 2rem;
+  text-transform: uppercase;
 }
